@@ -1,0 +1,64 @@
+CREATE PROCEDURE INV_INSERTAR_PRODUCTO
+ @producto varchar(50)
+,@cantidad int
+,@valor float
+,@codigo int
+AS
+BEGIN
+       SET NOCOUNT ON;
+       INSERT INTO [dbo].[productos]
+           ([producto]
+           ,[cantidad]
+           ,[valor]
+           ,[codigo])
+     VALUES
+           (@producto
+           ,@cantidad
+           ,@valor
+           ,@codigo)
+END
+EXECUTE INV_INSERTAR_PRODUCTO  'M Aguardiente', 30, 20000, 3
+
+SELECT * FROM dbo.productos;
+
+CREATE PROCEDURE INV_MOSTRAR_ALL_PRODUCTS
+AS
+BEGIN
+       SET NOCOUNT ON;
+       SELECT  *
+       FROM   [dbo].[productos]
+END
+
+EXECUTE INV_MOSTRAR_ALL_PRODUCTS
+
+CREATE PROCEDURE INV_ELIMINAR_PRODUCTO
+ @codigo int
+AS
+BEGIN
+       SET NOCOUNT ON;
+       DELETE FROM productos WHERE codigo = @codigo
+END
+
+EXECUTE INV_ELIMINAR_PRODUCTO  3
+
+CREATE PROCEDURE INV_ACTUALIZAR_PRODUCTO
+@producto varchar(50)
+,@cantidad int
+,@valor float
+,@codigo int
+AS
+BEGIN
+       SET NOCOUNT ON;
+    UPDATE productos
+    SET    
+            
+           producto = @producto
+		   ,cantidad = @cantidad
+		   ,valor = @valor
+		   ,codigo  = @codigo
+           
+       WHERE  codigo  = @codigo
+END
+
+
+EXECUTE INV_ACTUALIZAR_PRODUCTO  'M Aguardiente',  10, 21000, 3
