@@ -23,10 +23,14 @@ namespace Licores
         {
             objeCN.Crear(texproducto.Text, int.Parse(texcantidad.Text), float.Parse(texvalor.Text), int.Parse(texasignarcodigo.Text));
             MessageBox.Show("Se guardo el producto");
+            
             this.Close();
 
         }
 
-       
+        private void agregarproductos_Load(object sender, EventArgs e)
+        {
+            texproducto.Focus();
+        }
     }
 }

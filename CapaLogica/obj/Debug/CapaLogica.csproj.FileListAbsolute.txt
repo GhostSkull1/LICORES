@@ -7,3 +7,12 @@ C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaLogica\obj\Debug\Ca
 C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\bin\Debug\CapaBaseDatos.dll
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\bin\Debug\CapaBaseDatos.pdb
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaLogica\obj\Debug\CapaLogica.pdb

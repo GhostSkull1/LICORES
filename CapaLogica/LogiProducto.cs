@@ -5,12 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CapaBaseDatos;
+using System.Windows.Forms;
 
 namespace CapaLogica
 {
     public class LogiProducto
     {
         private InfoProductos ObjeCD = new InfoProductos(); // crear objeto
+
+        public void menaviso(string msg)
+        {
+            MessageBox.Show(msg, "ATENCION", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
 
         public void Crear(string producto, int cantidad, float valor, int codigo)
         {
@@ -33,5 +39,7 @@ namespace CapaLogica
         {
             ObjeCD.ActualizarProducto(producto, cantidad, valor, codigo);
         }
+
+        
     }
 }

@@ -4,3 +4,9 @@ C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaBaseDatos\obj\Debug
 C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaBaseDatos\obj\Debug\CapaBaseDatos.csproj.CoreCompileInputs.cache
 C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaBaseDatos\obj\Debug\CapaBaseDatos.dll
 C:\Users\jackl\OneDrive\Documentos\Visual Studio\Licores\CapaBaseDatos\obj\Debug\CapaBaseDatos.pdb
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaBaseDatos\bin\Debug\CapaBaseDatos.dll
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaBaseDatos\bin\Debug\CapaBaseDatos.pdb
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaBaseDatos\obj\Debug\CapaBaseDatos.csproj.AssemblyReference.cache
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaBaseDatos\obj\Debug\CapaBaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaBaseDatos\obj\Debug\CapaBaseDatos.dll
+C:\Users\jackl\OneDrive\Documentos\Visual Studio\LICORES\LICORES\CapaBaseDatos\obj\Debug\CapaBaseDatos.pdb

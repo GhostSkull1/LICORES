@@ -128,7 +128,9 @@
             this.Controls.Add(this.texproducto);
             this.Controls.Add(this.buttguardar);
             this.Name = "agregarproductos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AGREGAR PRODUCTOS";
+            this.Load += new System.EventHandler(this.agregarproductos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

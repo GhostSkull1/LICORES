@@ -128,7 +128,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bactualizapro);
             this.Name = "Actualizar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Actualizar";
+            this.Load += new System.EventHandler(this.Actualizar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

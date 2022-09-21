@@ -68,7 +68,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bborrar);
             this.Name = "Eliminar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Eliminar";
+            this.Load += new System.EventHandler(this.Eliminar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

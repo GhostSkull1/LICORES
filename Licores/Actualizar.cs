@@ -22,9 +22,15 @@ namespace Licores
 
         private void bactualizapro_Click(object sender, EventArgs e)
         {
-            objeCN.Crear(textBoxproducto.Text, int.Parse(textBoxcantidad.Text), float.Parse(textBoxvalor.Text), int.Parse(textBoxcodigo.Text));
+            objeCN.Actualizar(textBoxproducto.Text, int.Parse(textBoxcantidad.Text), float.Parse(textBoxvalor.Text), int.Parse(textBoxcodigo.Text));
             MessageBox.Show("Se actualizo el producto");
-            this.Close();
+            
+            //this.Close();
+        }
+
+        private void Actualizar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
